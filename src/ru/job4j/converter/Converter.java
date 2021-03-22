@@ -5,7 +5,7 @@ public class Converter {
         return  value / 70;
     }
 
-    public static int rubleToDollar(int value){
+    public static int rubleToDollar(int value) {
         return  value / 60;
     }
 
