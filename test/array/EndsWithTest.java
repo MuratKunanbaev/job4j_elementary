@@ -21,5 +21,6 @@ public class EndsWithTest {
         char[] post = {'l', 'a'};
         boolean result = EndsWith.endsWith(word, post);
         Assert.assertFalse(result);
+
     }
 }
