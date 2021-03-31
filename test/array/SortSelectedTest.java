@@ -13,7 +13,6 @@ public class SortSelectedTest {
         int[] result = SortSelected.sort(data);
         int[] expected = new int[] {1, 2, 3, 4, 5};
         Assert.assertArrayEquals(expected, result);
-
     }
 
     @Test
@@ -22,6 +21,5 @@ public class SortSelectedTest {
         int[] result = SortSelected.sort(data);
         int[] expected = new int[] {1, 13, 20};
         Assert.assertArrayEquals(expected, result);
-
     }
 }
