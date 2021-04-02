@@ -8,12 +8,11 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
         int change = money - price;
-        int[] sortCoins = Max.findMax(coins);
 
-        for (int i = 0; i < sortCoins.length; i++) {
-            while (sortCoins[i] <= change) {
-                change -= sortCoins[i];
-                rsl[size] = sortCoins[i];
+        for (int i = 0; i < coins.length; i++) {
+            while (coins[i] <= change) {
+                change -= coins[i];
+                rsl[size] = coins[i];
                 size++;
             }
         }

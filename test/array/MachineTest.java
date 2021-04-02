@@ -32,6 +32,7 @@ public class MachineTest {
         int[] result = Machine.change(money, price);
         int[] expected = {10, 10, 5, 2, 2};
         Assert.assertArrayEquals(expected, result);
+
     }
 
     @Test
