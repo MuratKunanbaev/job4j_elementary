@@ -6,11 +6,8 @@ public class Matrix {
         for (int row = 0; row < table.length; row++) {
             for (int cell = 0; cell < table.length; cell++) {
                 table[row][cell]  = (row + 1) * (cell + 1);
-
             }
-
         }
         return table;
     }
-
 }

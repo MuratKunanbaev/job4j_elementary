@@ -16,7 +16,6 @@ public class LengthArrayArrays {
         };
         outputOfArrayElements(numbers1);
     }
-
     public static void outputOfArrayElements(int[][] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.println("Размер вложенного массива равен: " + array[i].length);

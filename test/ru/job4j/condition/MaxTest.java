@@ -24,6 +24,7 @@ public class MaxTest {
         int result = Max.max(left, right);
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenMax31To53Then53() {
         int left = 31;

@@ -9,7 +9,6 @@ public class Cinema {
             System.out.println("It is not for you.");
         }
     }
-
     public static void main(String[] args) {
         Cinema.acces(21);
         Cinema.acces(16);

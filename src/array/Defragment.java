@@ -10,12 +10,10 @@ public class Defragment {
                         SwitchArray.swap(array, point, j);
                         break;
                     }
-
                 }
             }
             System.out.print(array[index] + " ");
         }
         return array;
     }
-
 }
