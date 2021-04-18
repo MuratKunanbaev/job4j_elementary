@@ -12,6 +12,7 @@ public class Merge {
         if (right == null) {
             System.arraycopy(left, 0, rsl, 0, left.length);
         }
+
         int i = 0;
         int j = 0;
         int k = 0;
@@ -25,6 +26,7 @@ public class Merge {
             }
             k++;
         }
+
         if (i <  left.length) {
             System.arraycopy(left, i, rsl, k, (left.length - i));
         }
