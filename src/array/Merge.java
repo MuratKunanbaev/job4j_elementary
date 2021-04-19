@@ -34,8 +34,4 @@ public class Merge {
         }
         return rsl;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
