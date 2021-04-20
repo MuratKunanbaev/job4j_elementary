@@ -4,15 +4,12 @@ public class Max {
 
 
     public Max(int a, int b) {
-
     }
 
     public Max(int a, int b, int c) {
-
     }
 
     public Max(int a, int b, int c, int d) {
-
     }
 
     public int max(int  first, int second) {
